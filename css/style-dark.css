@@ -745,7 +745,7 @@ blockquote {
 }
 
 .header-main nav.nav-menu ul li {
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
     border-bottom: 1px solid #202226;
@@ -825,7 +825,7 @@ header .header-mobile .header-toggle i {
 
 .header-main .nav-footer .social li {
     display: inline-block;
-    font-size: 18px;
+    font-size: 24px;
     margin-right: 10px;
 }
 
@@ -845,7 +845,7 @@ header .header-mobile .header-toggle i {
 }
 
 .header-main .nav-footer .copy p {
-    font-size: 12px;
+    font-size: 14px;
     color: #777;
 }
 
