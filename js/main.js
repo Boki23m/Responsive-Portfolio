@@ -221,11 +221,7 @@ function ajaxPortfolioSetup($ajaxLink, $ajaxContainer) {
     $ajaxContainer.find('.popup-close').on('click', function () {
         $ajaxContainer.removeClass('on');
     });
-
-
 }
-
-
 
 /********** Function Map Initialization **********/
 function initMap() {
