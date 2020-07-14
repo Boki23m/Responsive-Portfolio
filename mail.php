@@ -9,7 +9,6 @@
         $email = filter_var(trim($_POST["cf_email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["cf_message"]);
 
-
         // Check that data was sent to the mailer.
         if ( empty($name) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
@@ -20,7 +19,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "boki23usa@yahoo.com";
+        $recipient = "info@limoservicesandiego.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
